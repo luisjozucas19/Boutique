@@ -29,6 +29,7 @@ function Routing() {
         <Route path="/pago" element={<PagoPage/>}/>
         <Route path="/factura" element={<FacturaPage/>}/>
         <Route path="/reportes" element={<ReportesPage/>}/>
+        <Route path="/soporte" element={<Soporte />} />
       </Routes>
     </Router>
   );

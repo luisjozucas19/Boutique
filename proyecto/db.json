@@ -21,6 +21,17 @@
       "direccion": "Desamparados",
       "contraseña": "Mari123+",
       "rol": "Colaborador"
+    },
+    {
+      "id": "d3fc",
+      "cedula": "116110258",
+      "nombre": "Luis",
+      "apellidos": "Zuñiga",
+      "correo": "luis@gmail.com",
+      "telefono": "83502671",
+      "direccion": "Acosta",
+      "contraseña": "U2xpcGtub3QwMjAxQA==",
+      "rol": "Cliente"
     }
   ],
   "intentosLogin": [
@@ -95,6 +106,12 @@
       "correo": "mari@bellasboutique.com",
       "fecha": "31/10/2025, 18:49:10",
       "exito": false
+    },
+    {
+      "id": "56eb",
+      "correo": "luis@gmail.com",
+      "fecha": "23/11/2025, 0:06:28",
+      "exito": true
     }
   ],
   "clientes": [
@@ -127,6 +144,16 @@
       "direccion": "Desamparados",
       "cedula": "321",
       "idUsuario": "6c11"
+    },
+    {
+      "id": "50da",
+      "nombre": "Luis",
+      "apellidos": "Zuñiga",
+      "correo": "luis@gmail.com",
+      "telefono": "83502671",
+      "direccion": "Acosta",
+      "cedula": "116110258",
+      "idUsuario": "d3fc"
     }
   ],
   "productos": [
@@ -272,8 +299,25 @@
       "nombre": "Abrigos - Mujer"
     }
   ],
-  "carritos": [],
+  "carritos": [
+    {
+      "id": "101f",
+      "idUsuario": "d3fc",
+      "fechaCreacion": "2025-11-23T06:06:35.253Z",
+      "estado": "activo",
+      "items": [
+        {
+          "productoId": "b4bf",
+          "cantidad": 1
+        }
+      ]
+    }
+  ],
   "pagos": [],
   "facturas": [],
-  "ventas": []
+  "ventas": [],
+  "encuestas": [],
+  "sugerencias": [],
+  "faq": [],
+  "mensajesChat": []
 }
